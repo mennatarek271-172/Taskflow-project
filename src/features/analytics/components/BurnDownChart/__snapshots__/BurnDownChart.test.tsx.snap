@@ -1,0 +1,37 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`BurnDownChart > renders without errors 1`] = `
+<div>
+  <div
+    class="rounded-[var(--radius-lg)] border border-[var(--border-default)] bg-[var(--bg-elevated)] shadow-[var(--shadow-md)] p-4"
+    data-testid="burndown-chart"
+  >
+    <div
+      class="mb-3 flex flex-col gap-1"
+    >
+      <h3
+        class="text-lg font-semibold text-[var(--text-primary)]"
+      >
+        Burn Down
+      </h3>
+      <p
+        class="text-sm text-[var(--text-secondary)]"
+      >
+        Remaining work vs ideal progress (last 14 days)
+      </p>
+    </div>
+    <div
+      class="h-64 w-full"
+    >
+      <div
+        style="width: 400px; height: 300px;"
+      >
+        <div
+          class="recharts-wrapper"
+          style="position: relative; cursor: default;"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,1 @@
+export { BadgeUnlockModal } from './BadgeUnlockModal'

@@ -1,0 +1,57 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`CompletionTrendChart > renders without errors 1`] = `
+<div>
+  <div
+    class="rounded-[var(--radius-lg)] border border-[var(--border-default)] bg-[var(--bg-elevated)] shadow-[var(--shadow-md)] p-4"
+    data-testid="completion-trend-chart"
+  >
+    <div
+      class="mb-3 flex flex-col gap-1"
+    >
+      <div
+        class="flex items-center justify-between gap-2"
+      >
+        <div>
+          <h3
+            class="text-lg font-semibold text-[var(--text-primary)]"
+          >
+            Completion Trend
+          </h3>
+          <p
+            class="text-sm text-[var(--text-secondary)]"
+          >
+            Tasks created vs completed over time
+          </p>
+        </div>
+        <div
+          class="flex gap-1"
+        >
+          <button
+            class="inline-flex items-center justify-center rounded-[var(--radius-md)] border font-medium transition-opacity focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] disabled:opacity-50 disabled:cursor-not-allowed bg-[var(--accent)] text-white hover:bg-[var(--accent-hover)] border-transparent h-8 px-3 text-sm gap-1.5"
+          >
+            Weekly
+          </button>
+          <button
+            class="inline-flex items-center justify-center rounded-[var(--radius-md)] border font-medium transition-opacity focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[var(--accent)] disabled:opacity-50 disabled:cursor-not-allowed bg-transparent text-[var(--text-primary)] hover:bg-[var(--bg-tertiary)] border-transparent h-8 px-3 text-sm gap-1.5"
+          >
+            Monthly
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      class="h-64 w-full"
+    >
+      <div
+        style="width: 400px; height: 300px;"
+      >
+        <div
+          class="recharts-wrapper"
+          style="position: relative; cursor: default;"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
